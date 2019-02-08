@@ -1,0 +1,59 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Application<SampleMaven>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "chatbot.Application",
+            "projectName": "SampleMaven",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MongoController<SampleMaven>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "controller.MongoController",
+            "projectName": "SampleMaven",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MongoDBConnection<SampleMaven>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "datalayer.MongoDBConnection",
+            "projectName": "SampleMaven",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MongoService<SampleMaven>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "service.MongoService",
+            "projectName": "SampleMaven",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}
